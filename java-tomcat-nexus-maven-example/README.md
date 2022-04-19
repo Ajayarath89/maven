@@ -1,10 +1,14 @@
 # Tomcat installatin : 
+If it is normal user:
 sudo yum install tomcat tomcat-webapps tomcat-admin-webapps tomcat-docs-webapp tomcat-javadoc -y
+
+If it is root :
+yum install tomcat tomcat-webapps tomcat-admin-webapps tomcat-docs-webapp tomcat-javadoc -y
 
 **# java-tomcat-maven-example
 Prerequisites:**
 
-Edit /usr/share/tomcat/conf/tomcat-users.xml/tomcat-users.xml in tomcat ::
+Edit /usr/share/tomcat/conf/tomcat-users.xml in tomcat ::
 
 	<role rolename="tomcat"/>
 	<role rolename="admin-script"/>
