@@ -1,3 +1,9 @@
+yum install java-1.8.0-openjdk -y
+
+yum install maven git tree -y
+
+mvn archetype:generate -DgroupId=com.sriman.app -DartifactId=maven-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
 # Tomcat installatin : 
 If it is normal user:
 sudo yum install tomcat tomcat-webapps tomcat-admin-webapps tomcat-docs-webapp tomcat-javadoc -y
