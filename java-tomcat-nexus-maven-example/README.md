@@ -53,9 +53,10 @@ Deploying Project snapshots to nexus using Maven ::
 
 # install nexus
 
-yum install -y maven java-1.8.0-openjdk
+# install nexus
+yum install -y maven
 
-mkdir /opt/nexus
+mkdir /opt/nexus && cd /opt/nexus
 
 cd /opt/nexus
 
