@@ -36,7 +36,7 @@ Edit /etc/maven/settings.xml in maven ::
 	<password>password</password>
 	</server>
 	<server>     
-	<id>nexus-site</id>
+	<id>Snapshots</id>
 	<username>admin</username>
 	<password>admin123</password>
 	</server>
