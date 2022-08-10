@@ -1,6 +1,8 @@
 apt update
 
-apt install openjdk-8-jdk
+apt install openjdk-8-jdk -y
+
+apt install maven -y
 
 useradd -M -d /opt/nexus -s /bin/bash -r nexus
 
@@ -26,3 +28,6 @@ sudo -u nexus /opt/nexus/bin/nexus start
 
 
 cat /opt/nexus/sonatype-work/nexus3/admin.password
+
+
+https://kifarunix.com/install-nexus-repository-manager-on-ubuntu/
